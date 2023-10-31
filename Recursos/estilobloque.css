@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+body{
+    width: auto;
+    
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(247, 251, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Cuerpo */
+
+.cont-nav-header{
+    width: auto;
+
+    background-image: url('https://scontent.fbog4-1.fna.fbcdn.net/v/t31.18172-8/11220760_482539358572451_4333200935464561865_o.jpg?_nc_cat=101&ccb=1-7&_nc_sid=4dc865&_nc_ohc=433OrugUUqMAX_su79H&_nc_ht=scontent.fbog4-1.fna&oh=00_AfBlltmjEDMNZwJD0KvSZYnY-eOHP2eLVrVtMi-lDOEIgg&oe=655279D9');
+    background-size: cover;
+    object-fit: cover;
+    
+    border-radius: 0px 0px 80px 80px;
+}
+
+.nav-cuerpo{
+    width: auto;
+    height: 68vh;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.8rem 0 0 0;
+}
+
+.nav-header a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 200ms;
+    text-transform: uppercase;
+}
+
+.nav-header a:hover{
+    color: rgb(128 186 39);
+}
